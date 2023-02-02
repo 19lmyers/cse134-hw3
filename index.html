@@ -23,21 +23,11 @@
         </p>
       </div>
       <picture>
-        <source
-          srcset="assets/images/header-1920.webp"
-          width="1920"
-          height="1440"
-        />
-        <source
-          srcset="assets/images/header-960.webp"
-          width="960"
-          height="720"
-        />
         <img
-          src="assets/images/header-640.webp"
+          srcset="assets/images/header-640.webp 640w, assets/images/header-960.webp 960w, assets/images/header-1920.webp 1920w"
+          sizes="(min-width: 3400px) 1920px, (min-width: 1200px) 960px, 640px"
           alt="Photo of me!"
-          width="640"
-          height="480"
+          src="assets/images/header-640.webp"
         />
       </picture>
     </header>
@@ -89,19 +79,6 @@
       <!--<section>
         <h2>Education</h2>
         <div class="flex-layout flex-row">
-          <picture class="flex-item card img-large">
-            <source
-              srcset="assets/images/header-960.webp"
-              width="960"
-              height="720"
-            />
-            <img
-              src="assets/images/header-640.webp"
-              alt="Photo of me!"
-              width="640"
-              height="480"
-            />
-          </picture>
           <div class="flex-item card card-content surface">
             Describe my education at UC San Diego. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
@@ -137,19 +114,6 @@
         <h2>Projects</h2>
         <div class="flex-layout flex-row">
           <div class="flex-item card">
-            <!--<picture>
-              <source
-                srcset="assets/images/header-960.webp"
-                width="960"
-                height="720"
-              />
-              <img
-                src="assets/images/header-640.webp"
-                alt="Photo of me!"
-                width="640"
-                height="480"
-              />
-            </picture>-->
             <div class="card-content">
               <h3>Portfolio Website</h3>
               <p><em class="uppercase">Jan 2023</em></p>
@@ -161,19 +125,6 @@
             </div>
           </div>
           <div class="flex-item card">
-            <!--<picture>
-              <source
-                srcset="assets/images/header-960.webp"
-                width="960"
-                height="720"
-              />
-              <img
-                src="assets/images/header-640.webp"
-                alt="Photo of me!"
-                width="640"
-                height="480"
-              />
-            </picture>-->
             <div class="card-content">
               <h3>Unnamed Tasks App</h3>
               <p><em class="uppercase">2022 – 2023</em></p>
@@ -182,20 +133,6 @@
             </div>
           </div>
           <div class="flex-item card">
-            <!--<picture>
-              <source
-                media="(min-width: 640px)"
-                srcset="assets/images/header-960.webp"
-                width="960"
-                height="720"
-              />
-              <img
-                src="assets/images/header-640.webp"
-                alt="Photo of me!"
-                width="640"
-                height="480"
-              />
-            </picture>-->
             <div class="card-content">
               <h3>ThunderScout 3</h3>
               <p><em class="uppercase">2021</em></p>
