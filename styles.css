@@ -481,6 +481,7 @@ footer .flex-item:first-child {
 ul {
   list-style-type: disc;
   list-style-position: inside;
+  padding: none;
 }
 
 /* Form */
