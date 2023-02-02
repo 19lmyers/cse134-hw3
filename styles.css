@@ -397,17 +397,13 @@ header p {
   line-height: 1.75rem;
 }
 
-header.card picture {
-  aspect-ratio: inherit;
-}
-
 header img,
 header.card img {
   border-radius: 1.5rem;
 
   height: inherit;
   min-width: 50vw;
-  max-height: 70vh;
+  max-height: 75bvh;
 }
 
 @media screen and (min-width: 640px) {
@@ -435,6 +431,8 @@ header.card img {
     border-radius: 1.5rem;
 
     transform: translateX(50%);
+
+    padding: 2rem;
   }
 }
 
@@ -459,23 +457,23 @@ header.card img {
 footer.flex-layout {
   margin: 3rem;
   width: auto;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+@media (min-width: 1024px) {
+    footer.flex-layout {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
 }
 
 footer .flex-item {
-  flex: 1 1 auto;
-  width: 100%;
-  text-align: center;
+  flex: 0 1 auto;
+  white-space: nowrap;
 }
 
-@media (min-width: 400px) {
-  footer.flex-layout {
-    flex-direction: row;
-  }
-
-  footer .flex-item {
-    width: min-content;
-  }
+footer .flex-item:first-child {
+    margin-right: auto;
 }
 
 /* Bullet */
