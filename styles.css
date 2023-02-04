@@ -156,7 +156,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Source Code Pro, monospace;
+  font-family: 'Source Code Pro', monospace;
   font-weight: 700;
 }
 
@@ -304,7 +304,7 @@ section h2 {
   border-radius: 1.5rem 1.5rem 0 0;
 
   width: 100%;
-  max-height: 35vh;
+  max-height: 35svh;
 
   object-fit: cover;
 }
@@ -321,11 +321,11 @@ section h2 {
 
 @media (min-width: 640px) {
   .card img {
-    max-height: 30vh;
+    max-height: 30svh;
   }
 
   .card.img-large img {
-    max-height: 60vh;
+    max-height: 60svh;
   }
 }
 
@@ -374,7 +374,7 @@ section h2 {
 
 .action .text,
 input.action {
-  font-family: Source Code Pro, monospace;
+  font-family: 'Source Code Pro', monospace;
   font-weight: 700;
   line-height: 1.5rem;
   letter-spacing: -0.025em;
@@ -403,8 +403,8 @@ header.card img {
   border-radius: 1.5rem;
 
   height: inherit;
-  min-width: 50vw;
-  max-height: 75vh;
+  min-width: 50svw;
+  max-height: 75svh;
 }
 
 @media screen and (min-width: 640px) {
