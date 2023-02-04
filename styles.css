@@ -490,11 +490,8 @@ select,
 textarea {
   width: 100%;
   margin-bottom: 1rem;
-}
-
- {
-  width: 100%;
-  max-width: 600px;
+  background-color: var(--color-surface);
+  color: var(--color-onSurface);
 }
 
 textarea {
@@ -518,7 +515,6 @@ input[type="text"],
 input[type="email"],
 textarea {
   outline: 2px solid var(--color-onSurfaceVariant);
-  outline-offset: 0.25rem;
   border-radius: 0.75rem;
 
   font-family: Lato, sans-serif;
